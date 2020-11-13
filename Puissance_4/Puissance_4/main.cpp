@@ -6,6 +6,9 @@
 //
 
 #include <iostream>
+#include "Logique/Grille.hpp"
+#include "Logique/Grille.cpp"
+
 
 int main()
 {

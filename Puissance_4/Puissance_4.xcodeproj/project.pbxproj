@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A58DB78255EB831008124F9 /* Grille.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A58DB76255EB831008124F9 /* Grille.cpp */; };
 		0A82DC0A255BD30A00321C22 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A82DC09255BD30A00321C22 /* main.cpp */; };
 		0A82DC15255BD38700321C22 /* Joueur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A82DC13255BD38700321C22 /* Joueur.cpp */; };
 		0A82DC1A255BD41300321C22 /* Jeu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A82DC18255BD41300321C22 /* Jeu.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A58DB76255EB831008124F9 /* Grille.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Grille.cpp; sourceTree = "<group>"; };
+		0A58DB77255EB831008124F9 /* Grille.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Grille.hpp; sourceTree = "<group>"; };
 		0A82DC06255BD30A00321C22 /* Puissance_4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Puissance_4; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A82DC09255BD30A00321C22 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0A82DC13255BD38700321C22 /* Joueur.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Joueur.cpp; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				0A82DC14255BD38700321C22 /* Joueur.hpp */,
 				0A82DC18255BD41300321C22 /* Jeu.cpp */,
 				0A82DC19255BD41300321C22 /* Jeu.hpp */,
+				0A58DB76255EB831008124F9 /* Grille.cpp */,
+				0A58DB77255EB831008124F9 /* Grille.hpp */,
 			);
 			path = Logique;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			files = (
 				0A82DC1A255BD41300321C22 /* Jeu.cpp in Sources */,
 				0A82DC0A255BD30A00321C22 /* main.cpp in Sources */,
+				0A58DB78255EB831008124F9 /* Grille.cpp in Sources */,
 				0A82DC15255BD38700321C22 /* Joueur.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

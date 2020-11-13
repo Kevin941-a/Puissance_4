@@ -5,11 +5,13 @@
 //  Created by Kevin Racapé on 11/11/2020.
 //
 
-#ifndef Joueur_hpp
-#define Joueur_hpp
+#pragma once
 
 #include <stdio.h>
 #include <string>
+#include "Jeton.hpp"
+#include "Jeu.hpp"
+#include "Grille.hpp"
 
 class Joueur
 {
@@ -18,16 +20,17 @@ private:
     int score;
     int id;
     std::string nom;
+    bool bot;
     
 public:
-    Joueur();
-    Joueur(std::string nom);
+    Joueur(); //Contructeur par défaut
+    Joueur(std::string name); //Surcharge constructeur
     void setScore(int score);
-    void setNom(std::string nom);
+    void setName(std::string name);
     std::string getNom();
     int getScore();
     int getId();
-    void swap(Joueur &);
+    bool estOrdinateur();
+    ~Joueur();
 };
 
-#endif /* Joueur_hpp */
